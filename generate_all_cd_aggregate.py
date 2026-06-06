@@ -2,11 +2,19 @@
 generate_all_cd_aggregate.py
 =============================
 For each CD type (alpha / beta / gamma / HP-beta):
-  1. Aggregate BANLayer attention over all label=0 samples
-  2. Auto-derive atom-role mapping via RDKit ring analysis
-  3. Collapse to 11 glucopyranose positions (+ HP group for HP-beta-CD)
-  4. Save bar chart PNG/SVG
-  5. Save PyMOL region-color .pml (Windows path, ASCII only)
+  1. Generate 3D PDB structure (RDKit ETKDGv3) -> results/aggregate_attention/
+  2. Aggregate BANLayer attention over all label=0 samples
+  3. Auto-derive atom-role mapping via RDKit ring analysis
+  4. Collapse to 11 glucopyranose positions (+ HP group for HP-beta-CD)
+  5. Save bar chart PNG/SVG at 600 dpi
+  6. Save PyMOL region-color .pml  (load PDB by filename; run PyMOL from
+     results/aggregate_attention/ or pass full path on the command line)
+  7. PML exports a 1920x1080 PNG automatically via ray-tracing
+
+Usage:
+  python generate_all_cd_aggregate.py
+  # Then open PyMOL from results/aggregate_attention/:
+  #   pymol alpha_CD_region_color.pml
 """
 
 import os, sys, warnings, torch, yaml
@@ -22,6 +30,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
 from rdkit import Chem
+from rdkit.Chem import AllChem
 from models import CDBAN
 from dataloader import smiles_to_pyg
 from torch_geometric.data import Batch
@@ -29,7 +38,6 @@ from torch_geometric.data import Batch
 # ── Paths ────────────────────────────────────────────────────────────────────
 OUT_DIR   = 'results/aggregate_attention'
 DATA_DIR  = 'data/binary'
-PDB_DIR   = 'results/pymol'
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # ── CD definitions ────────────────────────────────────────────────────────────
@@ -206,6 +214,22 @@ def build_role_map(smi):
     return role, mol
 
 
+# ── PDB generation ────────────────────────────────────────────────────────────
+def smiles_to_pdb(smiles, out_path):
+    """Generate 3D conformer from SMILES and write PDB (RDKit ETKDGv3)."""
+    mol = Chem.MolFromSmiles(smiles)
+    mol = Chem.AddHs(mol)
+    params = AllChem.ETKDGv3()
+    params.randomSeed = 42
+    if AllChem.EmbedMolecule(mol, params) == -1:
+        AllChem.EmbedMolecule(mol, AllChem.ETKDG())
+    try:
+        AllChem.MMFFOptimizeMolecule(mol, maxIters=500)
+    except Exception:
+        pass
+    Chem.MolToPDBFile(mol, out_path)
+
+
 # ── Load model ────────────────────────────────────────────────────────────────
 print('Loading model (seed 49)...')
 with open('configs/CDBAN.yaml') as f:
@@ -238,21 +262,23 @@ all_df = pd.concat(frames, ignore_index=True)
 label0 = all_df[all_df['label'] == 0].copy()
 
 
-def write_pml(pdb_path, role_map, out_pml):
-    # Use path relative to repo root so PML works cross-platform
-    # Run PyMOL from the repo root: pymol -c results/aggregate_attention/xxx.pml
-    pdb_abs = pdb_path.replace('\\', '/')
-    # group by region
+def write_pml(pdb_filename, role_map, out_pml, cd_name):
+    """Write PyMOL script. PDB is loaded by filename only (run PyMOL from
+    results/aggregate_attention/) or pass the full path when launching PyMOL."""
     region_atoms = {r: [] for r in REGION_RGB}
     for atom_idx, r in role_map.items():
         region = ROLE_TO_REGION.get(r, 'HP')
         region_atoms[region].append(atom_idx + 1)   # PyMOL 1-indexed
 
+    safe = cd_name.replace('-', '_').replace(' ', '_')
+    png_out = f'{safe}_region_color.png'
+
     lines = [
-        f'# CD Region-colour attention map',
-        f'# grey=Backbone, orange=Cavity, green=Primary rim, blue=Secondary rim',
+        f'# {cd_name} - Region-colour attention map',
+        f'# grey=Backbone  orange=Cavity  green=Primary rim  blue=Secondary rim',
+        f'# Run from results/aggregate_attention/:  pymol {os.path.basename(out_pml)}',
         '',
-        f'load {pdb_abs}, cd_host',
+        f'load {pdb_filename}, cd_host',
         '',
         '# Define region colours',
     ]
@@ -276,6 +302,9 @@ def write_pml(pdb_path, role_map, out_pml):
         'orient',
         'zoom cd_host, 5',
         'bg_color white',
+        '',
+        '# Export 1920x1080 PNG',
+        f'png {png_out}, width=1920, height=1080, dpi=300, ray=1',
     ]
     with open(out_pml, 'w', encoding='ascii') as f:
         f.write('\n'.join(lines))
@@ -388,7 +417,7 @@ def plot_bar(cd_name, role_mat, role_mean, role_std, n_kept, has_hp, out_path):
                  ha='center', va='bottom', fontsize=10, fontweight='bold')
 
     plt.tight_layout()
-    plt.savefig(out_path, dpi=300, bbox_inches='tight')
+    plt.savefig(out_path, dpi=600, bbox_inches='tight')
     plt.savefig(out_path.replace('.png', '.svg'), bbox_inches='tight')
     plt.close()
 
@@ -450,15 +479,18 @@ for cd_name, cfg_cd in CD_DEFS.items():
     for r in sorted(role_mean, key=role_mean.get, reverse=True):
         print(f'    {r:12s}: {role_mean[r]:.3f} +/- {role_std[r]:.3f}')
 
-    # PyMOL script
+    # PyMOL script (PDB generated into OUT_DIR, referenced by filename only)
     safe = cd_name.replace('-', '_').replace(' ', '_')
-    pdb_path = os.path.join(PDB_DIR, cfg_cd['pdb'])
+    pdb_filename = cfg_cd['pdb']
+    pdb_path = os.path.join(OUT_DIR, pdb_filename)
     pml_path = os.path.join(OUT_DIR, f'{safe}_region_color.pml')
-    if os.path.exists(pdb_path):
-        write_pml(pdb_path, role_map, pml_path)
-        print(f'  -> PyMOL: {pml_path}')
-    else:
-        print(f'  [WARN] PDB not found: {pdb_path}')
+    # Generate PDB if not already present
+    if not os.path.exists(pdb_path):
+        host_smi = subset.iloc[0]['SMILES_Host']
+        smiles_to_pdb(host_smi, pdb_path)
+        print(f'  -> PDB generated: {pdb_path}')
+    write_pml(pdb_filename, role_map, pml_path, cd_name)
+    print(f'  -> PyMOL: {pml_path}')
 
     # Bar chart
     chart_path = os.path.join(OUT_DIR, f'{safe}_aggregate_barplot.png')

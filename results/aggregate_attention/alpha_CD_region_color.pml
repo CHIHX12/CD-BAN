@@ -1,7 +1,8 @@
-# CD Region-colour attention map
-# grey=Backbone, orange=Cavity, green=Primary rim, blue=Secondary rim
+# alpha-CD - Region-colour attention map
+# grey=Backbone  orange=Cavity  green=Primary rim  blue=Secondary rim
+# Run from results/aggregate_attention/:  pymol alpha_CD_region_color.pml
 
-load results/pymol/alpha_CD.pdb, cd_host
+load alpha_CD.pdb, cd_host
 
 # Define region colours
 set_color col_backbone, [0.533, 0.533, 0.533]
@@ -22,3 +23,6 @@ set transparency, 0.30, cd_host
 orient
 zoom cd_host, 5
 bg_color white
+
+# Export 1920x1080 PNG
+png alpha_CD_region_color.png, width=1920, height=1080, dpi=300, ray=1
