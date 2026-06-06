@@ -31,3 +31,9 @@ results/seed_stability/parallel_run.log
 
 # Intermediate output directory
 results/binary/
+results/crystal_pymol/1DMB.pdb
+results/crystal_pymol/2ZYK.pdb
+results/crystal_pymol/4FEM.pdb
+results/aggregate_attention/1DMB.pdb
+results/aggregate_attention/2ZYK.pdb
+results/aggregate_attention/4FEM.pdb
