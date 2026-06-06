@@ -16,13 +16,13 @@ Chih-Yang Cheng¹\*, Yi-Huan Wu²\*, Feng-Yin Li¹\*
 
 ## Abstract
 
-Predicting non-covalent host–guest binding affinities solely from 2D molecular graphs remains a fundamental challenge in representation learning. Here, we introduce CD-BAN, a dual-branch graph neural network that utilizes a bilinear cross-attention mechanism to explicitly model the structural complementarity of drug–cyclodextrin inclusion complexes, entirely bypassing the need for 3D geometries or handcrafted descriptors. Trained exclusively on a binary classification objective to distinguish thermodynamic extremes — strong (K > 10,000 M⁻¹) versus weak (K < 100 M⁻¹) binders — across 1,198 labeled pairs, CD-BAN achieves robust performance (AUROC = 0.925 ± 0.040). Strikingly, the model's latent space spontaneously organizes into a continuous affinity gradient for entirely out-of-distribution data. Evaluated on 1,850 withheld intermediate-affinity compounds (100 ≤ K ≤ 10,000 M⁻¹), the network's output logit yields a highly significant monotonic ranking (τ = −0.289, p < 10⁻⁷⁵), demonstrating that discrete binary supervision can implicitly capture continuous thermodynamic principles. Leveraging this emergent property through heuristic boundary calibration, we successfully prioritize 37,000 uncharacterized drug–excipient ternary combinations. Ultimately, this work highlights how attention-based networks can uncover continuous physical laws from discrete empirical limits, providing a highly scalable framework for supramolecular screening.
+Predicting non-covalent host-guest binding affinities solely from 2D molecular graphs remains a fundamental challenge in representation learning. Here, we introduce CD-BAN, a dual-branch graph neural network that utilizes a bilinear cross-attention mechanism to explicitly model the structural complementarity of drug-cyclodextrin inclusion complexes, entirely bypassing the need for 3D geometries or handcrafted descriptors. Trained exclusively on a binary classification objective to distinguish thermodynamic extremes (strong: K > 10,000 M⁻¹ versus weak: K < 100 M⁻¹) across 1,198 labeled pairs, CD-BAN achieves robust performance (AUROC = 0.925 ± 0.040). Strikingly, the model's latent space spontaneously organizes into a continuous affinity gradient for entirely out-of-distribution data. Evaluated on 1,850 withheld intermediate-affinity compounds (100 ≤ K ≤ 10,000 M⁻¹), the network's output logit yields a highly significant monotonic ranking (τ = −0.289, p < 10⁻⁷⁵), demonstrating that discrete binary supervision can implicitly capture continuous thermodynamic principles. Leveraging this emergent property through heuristic boundary calibration, we successfully prioritize 37,000 uncharacterized drug-excipient ternary combinations. Ultimately, this work highlights how attention-based networks can uncover continuous physical laws from discrete empirical limits, providing a highly scalable framework for supramolecular screening.
 
 ---
 
 ## What it does
 
-CD-BAN predicts whether a drug–cyclodextrin pair forms a **strong** (K > 10,000 M⁻¹) or **weak** (K < 100 M⁻¹) inclusion complex from SMILES strings alone, with no 3D geometry required.
+CD-BAN predicts whether a drug-cyclodextrin pair forms a **strong** (K > 10,000 M⁻¹) or **weak** (K < 100 M⁻¹) inclusion complex from SMILES strings alone, with no 3D geometry required.
 
 | Label | Condition | Meaning |
 |-------|-----------|---------|
@@ -72,7 +72,7 @@ bash run_seeds_parallel.sh
 
 Three scripts, run in order:
 
-### Step 1 — Model inference (deep learning)
+### Step 1 - Model inference (deep learning)
 ```bash
 python predict_model.py \
   --guest "Cn1cnc2c1c(=O)n(c(=O)n2C)C" \
@@ -81,13 +81,13 @@ python predict_model.py \
 ```
 Output: `z_bin` (logit), `P(Weak)`, confidence label
 
-### Step 2 — Estimate K (binary formula)
+### Step 2 - Estimate K (binary formula)
 ```bash
 python predict_calibration.py --z 1.2308
 ```
 Formula: `log₁₀K ≈ (3.714 − z_bin) / 1.128`
 
-### Step 3 — Ternary K estimate (with coformer)
+### Step 3 - Ternary K estimate (with coformer)
 ```bash
 python predict_ternary_formula.py \
   --z 0.9380 \
