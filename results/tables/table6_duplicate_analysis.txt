@@ -1,0 +1,61 @@
+
+Table 6a.  Duplicate Entries — Summary by Measurement Disagreement (ΔG Spread)
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Exclusion criterion: same host–guest pair reported in ≥ 2 independent sources
+  with conflicting binding constants (DeltaG_spread = ΔG_max − ΔG_min, kJ/mol)
+───────────────────────────────────────────────────────────────────────────────────────────────
+  ΔG Spread                n   log₁₀K (mean)   log₁₀K (SD)  p_weak (mean)  Interpretation                       Recommendation
+───────────────────────────────────────────────────────────────────────────────────────────────
+  <1                      45           2.623         0.631         0.6917  Near-identical measurements          Merge using mean K
+  1–3                     50           2.498         0.809         0.7471  Minor disagreement (~2× in K)        Review case-by-case
+  3–6                     49           2.309         0.749         0.7108  Moderate disagreement (~10× in K)    Exclude or use median
+  >6                      57           2.201         1.020         0.7912  Large disagreement (>100× in K)      Exclude; data unreliable
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Total                  201           2.395         0.837         0.7384
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Pearson r  (log₁₀K vs p_weak) = -0.3652  (p<0.001, n=201)
+  Note: CD-BAN was trained on the curated set (n=3,048) and never saw these 201 entries.
+
+
+Table 6b.  High-Affinity Duplicate Entries (log₁₀K > 4) — Detailed Analysis
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Guest                        Host                     log₁₀K   K (M⁻¹)   ΔG Spread   p_weak      Prediction  Exclusion Reason & Recommendation
+───────────────────────────────────────────────────────────────────────────────────────────────
+  bencyclane                   β-CD                      4.903     80000        1.72   0.0000  Strong (K>10k)
+    Reason: Two sources: K=80k & K=40k M⁻¹; same compound, small spread (1.72 kJ/mol)
+    Model interpretation: Model p_weak≈0 → correctly identifies as strong binder
+    Recommendation: ADD — merge as mean K=57,000 M⁻¹
+
+  bencyclane                   β-CD                      4.602     40000        1.72   0.0000  Strong (K>10k)
+    Reason: Two sources: K=80k & K=40k M⁻¹; same compound, small spread (1.72 kJ/mol)
+    Model interpretation: Model p_weak≈0 → correctly identifies as strong binder
+    Recommendation: ADD — merge as mean K=57,000 M⁻¹
+
+  4-methylcinnamic acid        α-CD                      4.134     13600       11.04   0.7408    Weak (K<100)
+    Reason: Large spread (11.04 kJ/mol); K values range ~100-fold between sources
+    Model interpretation: Model p_weak=0.74 → doubts high K; α-CD cavity likely too small
+    Recommendation: KEEP EXCLUDED — measurement unreliable
+
+  doxepin                      β-CD                      4.121     13210        0.01   0.0088  Strong (K>10k)
+    Reason: Two sources with nearly identical K (spread=0.01 kJ/mol)
+    Model interpretation: Model p_weak≈0 → correctly identifies as strong binder
+    Recommendation: ADD — virtually duplicate measurement, use mean
+
+  doxepin                      β-CD                      4.119     13162        0.01   0.0013  Strong (K>10k)
+    Reason: Two sources with nearly identical K (spread=0.01 kJ/mol)
+    Model interpretation: Model p_weak≈0 → correctly identifies as strong binder
+    Recommendation: ADD — virtually duplicate measurement, use mean
+
+  4-bromocinnamic acid         α-CD                      4.090     12300        7.57   0.7813    Weak (K<100)
+    Reason: Spread=7.57 kJ/mol; conflicting K values across sources
+    Model interpretation: Model p_weak=0.78 → α-CD spatial mismatch suspected
+    Recommendation: KEEP EXCLUDED — uncertain measurement
+
+  4-methoxycinnamic acid       α-CD                      4.013     10300        8.96   0.7247    Weak (K<100)
+    Reason: Spread=8.96 kJ/mol; large inter-source disagreement
+    Model interpretation: Model p_weak=0.73 → consistent with structural doubt
+    Recommendation: KEEP EXCLUDED — uncertain measurement
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+  p_weak: CD-BAN predicted probability of weak binding (≥0.5 → Weak, <0.5 → Strong)
+  ΔG Spread: max(ΔG)−min(ΔG) across all duplicate measurements of the same pair (kJ/mol)

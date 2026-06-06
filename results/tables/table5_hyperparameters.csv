@@ -1,0 +1,24 @@
+Parameter,Value,Note
+Component,Setting,Note
+Guest GCN layers,3 × GCNConv (128-128-128),torch_geometric
+Host GCN layers,3 × GCNConv (128-128-128),Same as guest
+Node embedding dim,128,Linear projection
+Atom feature dim,74,Chemprop-style
+Max graph nodes,290,Padding applied
+BAN attention heads,2,BANLayer
+Decoder hidden dim,512,FC layers: 256→512→128→1
+Output activation,Sigmoid,via BCEWithLogitsLoss
+Total parameters,"780,550",≈0.78 M
+Loss function,BCEWithLogitsLoss,
+pos_weight,11.32,n(label=1)/n(label=0)
+Optimizer,Adam,
+Learning rate,5 × 10⁻⁵,
+Batch size,64,drop_last=True
+Max epochs,100,DrugBAN standard
+Best model criterion,Max validation AUROC,
+Random seeds,"42, 43, …, 51 (10 runs)",Stability evaluation
+GPU,Tesla V100-SXM2 (16 GB),4× parallel for seeds
+Strategy,7 : 2 : 1 stratified,Maintains class ratio
+Train / Val / Test,838 / 240 / 120,Label = 0 or 1 only
+Class balance,"Label 0: 8.1%, Label 1: 91.9%",pos_weight compensates
+Fuzzy zone,"1,850 (inference only)",Never used in training

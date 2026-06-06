@@ -1,0 +1,710 @@
+==============================================================================
+  CD-BAN Full Ternary Screening Report
+  7 Drugs × 4 CDs × 20 Coformers = 560 predictions
+==============================================================================
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Naproxen
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+0.9385, Fuzzy-Weak,  K_binary≈289 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×      1316 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×      1291 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×      1280 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×      1251 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×      1235 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×      1204 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×      1203 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×      1198 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×      1181 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×      1181 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×      1181 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×      1181 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×      1181 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×      1170 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×      1170 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×      1135 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×      1122 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×      1102 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×      1083 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       981 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=+0.8355, Fuzzy-Weak,  K_binary≈356 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×      1624 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×      1593 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×      1579 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×      1544 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×      1524 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×      1486 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×      1485 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×      1479 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×      1457 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×      1457 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×      1457 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×      1457 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×      1457 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×      1444 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×      1444 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×      1401 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×      1384 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×      1359 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×      1337 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×      1211 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.9550, Weak (High conf),  K_binary≈36 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       165 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       162 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       161 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       157 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       155 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       151 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       151 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       150 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       148 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       148 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       148 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       148 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       148 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       147 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       147 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       142 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       141 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       138 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       136 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       123 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=+1.1854, Fuzzy-Weak,  K_binary≈174 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       795 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       780 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       773 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       756 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       746 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       727 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       727 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       724 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       714 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       714 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       714 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       714 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       714 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       707 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       707 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       686 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       678 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       665 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       654 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       593 M⁻¹    -3.03 kJ/mol
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Indomethacin
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+0.4599, Fuzzy-Weak,  K_binary≈767 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×      3495 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×      3430 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×      3400 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×      3323 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×      3282 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×      3198 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×      3197 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×      3184 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×      3137 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×      3137 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×      3137 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×      3137 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×      3137 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×      3109 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×      3109 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×      3015 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×      2980 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×      2926 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×      2878 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×      2607 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=+1.2529, Fuzzy-Weak,  K_binary≈152 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       692 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       680 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       674 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       658 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       650 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       634 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       633 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       631 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       622 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       622 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       622 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       622 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       622 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       616 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       616 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       597 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       590 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       580 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       570 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       517 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.4475, Fuzzy-Weak,  K_binary≈102 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       466 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       457 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       453 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       443 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       437 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       426 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       426 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       424 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       418 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       418 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       418 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       418 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       418 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       414 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       414 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       402 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       397 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       390 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       383 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       347 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=+1.1058, Fuzzy-Weak,  K_binary≈205 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       935 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       918 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       910 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       889 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       878 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       856 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       855 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       852 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       839 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       839 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       839 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       839 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       839 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       832 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       832 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       807 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       797 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       783 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       770 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       698 M⁻¹    -3.03 kJ/mol
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Ibuprofen
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+1.2849, Fuzzy-Weak,  K_binary≈142 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       649 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       637 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       631 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       617 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       609 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       594 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       593 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       591 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       582 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       582 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       582 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       582 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       582 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       577 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       577 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       560 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       553 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       543 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       534 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       484 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=-3.8739, Strong (High conf),  K_binary≈5331651 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×  24293008 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×  23838627 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×  23632042 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×  23098945 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×  22809891 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×  22228863 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×  22218746 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×  22127896 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×  21805389 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×  21805389 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×  21805389 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×  21805389 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×  21805389 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×  21606329 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×  21610047 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×  20955678 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×  20709897 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×  20337752 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×  20000670 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×  18119976 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.7440, Weak (High conf),  K_binary≈56 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       254 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       249 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       247 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       242 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       239 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       232 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       232 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       232 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       228 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       228 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       228 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       228 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       228 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       226 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       226 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       219 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       217 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       213 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       209 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       190 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=-0.1156, Fuzzy-Strong,  K_binary≈2483 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×     11315 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×     11103 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×     11007 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×     10759 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×     10624 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×     10354 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×     10349 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×     10307 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×     10156 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×     10156 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×     10156 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×     10156 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×     10156 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×     10064 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×     10065 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×      9761 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×      9646 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×      9473 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×      9316 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×      8440 M⁻¹    -3.03 kJ/mol
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Diclofenac
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+0.6428, Fuzzy-Weak,  K_binary≈528 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×      2406 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×      2361 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×      2341 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×      2288 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×      2259 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×      2202 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×      2201 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×      2192 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×      2160 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×      2160 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×      2160 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×      2160 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×      2160 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×      2140 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×      2140 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×      2076 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×      2051 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×      2014 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×      1981 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×      1795 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=+1.2506, Fuzzy-Weak,  K_binary≈153 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       696 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       683 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       677 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       662 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       653 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       637 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       636 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       634 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       625 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       625 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       625 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       625 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       625 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       619 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       619 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       600 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       593 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       582 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       573 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       519 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.3977, Fuzzy-Weak,  K_binary≈113 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       515 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       506 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       501 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       490 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       484 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       472 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       471 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       469 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       463 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       463 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       463 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       463 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       463 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       458 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       458 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       444 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       439 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       431 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       424 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       384 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=+1.3424, Fuzzy-Weak,  K_binary≈127 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       577 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       566 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       561 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       548 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       542 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       528 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       528 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       526 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       518 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       518 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       518 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       518 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       518 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       513 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       513 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       498 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       492 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       483 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       475 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       430 M⁻¹    -3.03 kJ/mol
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Ketoprofen
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+1.3480, Fuzzy-Weak,  K_binary≈125 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       570 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       560 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       555 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       542 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       536 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       522 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       522 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       520 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       512 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       512 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       512 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       512 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       512 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       507 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       507 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       492 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       486 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       478 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       470 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       425 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=+0.5952, Fuzzy-Weak,  K_binary≈582 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×      2652 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×      2602 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×      2580 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×      2521 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×      2490 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×      2426 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×      2425 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×      2415 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×      2380 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×      2380 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×      2380 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×      2380 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×      2380 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×      2358 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×      2359 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×      2287 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×      2260 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×      2220 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×      2183 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×      1978 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.7637, Weak (High conf),  K_binary≈54 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       244 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       240 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       238 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       232 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       229 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       223 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       223 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       222 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       219 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       219 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       219 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       219 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       219 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       217 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       217 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       211 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       208 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       204 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       201 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       182 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=-0.4077, Fuzzy-Strong,  K_binary≈4508 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×     20540 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×     20156 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×     19982 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×     19531 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×     19286 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×     18795 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×     18787 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×     18710 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×     18437 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×     18437 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×     18437 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×     18437 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×     18437 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×     18269 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×     18272 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×     17719 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×     17511 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×     17196 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×     16911 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×     15321 M⁻¹    -3.03 kJ/mol
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Aspirin
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+1.7694, Weak (High conf),  K_binary≈53 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       241 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       237 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       235 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       229 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       227 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       221 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       221 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       220 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       217 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       217 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       217 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       217 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       217 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       215 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       215 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       208 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       206 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       202 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       199 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       180 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=+1.2255, Fuzzy-Weak,  K_binary≈161 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       732 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       719 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       712 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       696 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       688 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       670 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       670 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       667 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       657 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       657 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       657 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       657 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       657 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       651 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       652 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       632 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       624 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       613 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       603 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       546 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.3242, Fuzzy-Weak,  K_binary≈131 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       599 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       588 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       582 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       569 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       562 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       548 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       548 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       545 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       537 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       537 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       537 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       537 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       537 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       532 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       533 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       516 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       510 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       501 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       493 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       447 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=+1.7002, Weak (High conf),  K_binary≈61 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       278 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       273 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       270 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       264 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       261 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       254 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       254 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       253 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       250 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       250 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       250 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       250 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       250 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       247 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       247 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       240 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       237 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       233 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       229 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       207 M⁻¹    -3.03 kJ/mol
+
+──────────────────────────────────────────────────────────────────────────────
+  DRUG: Paracetamol
+──────────────────────────────────────────────────────────────────────────────
+
+  + α-CD  (z_bin=+1.4330, Fuzzy-Weak,  K_binary≈105 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       480 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       470 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       466 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       456 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       450 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       439 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       439 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       437 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       430 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       430 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       430 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       430 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       430 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       426 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       426 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       414 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       409 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       401 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       395 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       358 M⁻¹    -3.03 kJ/mol
+
+  + β-CD  (z_bin=+1.3169, Fuzzy-Weak,  K_binary≈133 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       608 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       596 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       591 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       578 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       571 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       556 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       556 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       554 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       546 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       546 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       546 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       546 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       546 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       540 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       541 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       524 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       518 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       509 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       500 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       453 M⁻¹    -3.03 kJ/mol
+
+  + γ-CD  (z_bin=+1.1204, Fuzzy-Weak,  K_binary≈199 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       908 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       891 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       883 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       863 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       852 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       830 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       830 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       827 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       815 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       815 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       815 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       815 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       815 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       807 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       807 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       783 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       774 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       760 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       747 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       677 M⁻¹    -3.03 kJ/mol
+
+  + HP-β-CD  (z_bin=+1.9032, Weak (High conf),  K_binary≈40 M⁻¹)
+  Rank  Coformer             Cat              K_ratio     K_tern        ΔΔG
+  ----  --------             ---              -------     ------        ---
+  1     Nicotinamide         hydrotrope          4.56×       184 M⁻¹    -3.76 kJ/mol
+  2     Succinic acid        organic acid        4.47×       180 M⁻¹    -3.71 kJ/mol
+  3     L-Proline            amino acid          4.43×       179 M⁻¹    -3.69 kJ/mol
+  4     L-Lysine             amino acid          4.33×       175 M⁻¹    -3.63 kJ/mol
+  5     L-Histidine          amino acid          4.28×       172 M⁻¹    -3.60 kJ/mol
+  6     Glycine              amino acid          4.17×       168 M⁻¹    -3.54 kJ/mol
+  7     Urea                 hydrotrope          4.17×       168 M⁻¹    -3.54 kJ/mol
+  8     Caffeine             hydrotrope          4.15×       167 M⁻¹    -3.53 kJ/mol
+  9     HPMC K15M            polymer             4.09×       165 M⁻¹    -3.49 kJ/mol
+  10    PVP K30              polymer             4.09×       165 M⁻¹    -3.49 kJ/mol
+  11    PEG 4000             polymer             4.09×       165 M⁻¹    -3.49 kJ/mol
+  12    HPMC E5              polymer             4.09×       165 M⁻¹    -3.49 kJ/mol
+  13    Poloxamer 188        polymer             4.09×       165 M⁻¹    -3.49 kJ/mol
+  14    L-Arginine           amino acid          4.05×       163 M⁻¹    -3.47 kJ/mol
+  15    L-Glutamine          amino acid          4.05×       163 M⁻¹    -3.47 kJ/mol
+  16    Triethanolamine      amine               3.93×       158 M⁻¹    -3.39 kJ/mol
+  17    Citric acid          organic acid        3.88×       156 M⁻¹    -3.36 kJ/mol
+  18    Tartaric acid        organic acid        3.81×       154 M⁻¹    -3.32 kJ/mol
+  19    Tromethamine         buffer amine        3.75×       151 M⁻¹    -3.28 kJ/mol
+  20    Meglumine            sugar amine         3.40×       137 M⁻¹    -3.03 kJ/mol
+
+==============================================================================
+  ⚠️  Ternary formula based on n=4 data points.
+  K_ratio and ΔΔG trends are directionally reliable;
+  absolute K values require experimental validation.
+==============================================================================

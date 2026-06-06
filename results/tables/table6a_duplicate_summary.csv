@@ -1,0 +1,5 @@
+spread_range,n,log10K_mean,log10K_sd,p_weak_mean,interpretation,recommendation
+<1,45,2.623,0.631,0.6917,Near-identical measurements,Merge using mean K
+1–3,50,2.498,0.809,0.7471,Minor disagreement (~2× in K),Review case-by-case
+3–6,49,2.309,0.749,0.7108,Moderate disagreement (~10× in K),Exclude or use median
+>6,57,2.201,1.02,0.7912,Large disagreement (>100× in K),Exclude; data unreliable

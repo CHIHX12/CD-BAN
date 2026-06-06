@@ -1,0 +1,101 @@
+SMILES_Guest,Drug_name,Host,log10K_true,K_true,z_bin,DL_label,usable,usable_note,Coformer,Category,K_binary,K_ternary,K_ratio,ddG_kJmol,z_tern,z_tern_valid
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,9942.9,45303.5,4.56,-3.76,-1.5381,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,9942.9,44456.1,4.47,-3.71,-1.5289,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,9942.9,44070.9,4.43,-3.69,-1.5246,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,9672.1,44069.9,4.56,-3.76,-1.5246,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,9637.4,43911.8,4.56,-3.76,-1.5228,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,9672.1,43245.6,4.47,-3.71,-1.5153,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,9637.4,43090.5,4.47,-3.71,-1.5136,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,9942.9,43076.7,4.33,-3.63,-1.5134,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,9672.1,42870.8,4.43,-3.69,-1.5111,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,9637.4,42717.1,4.43,-3.69,-1.5093,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Histidine,amino acid,9942.9,42537.7,4.28,-3.6,-1.5073,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,9672.1,41903.7,4.33,-3.63,-1.4999,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,9637.4,41753.4,4.33,-3.63,-1.4981,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,9147.1,41677.8,4.56,-3.76,-1.4973,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Glycine,amino acid,9942.9,41454.1,4.17,-3.54,-1.4946,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Urea,hydrotrope,9942.9,41435.3,4.17,-3.54,-1.4944,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Histidine,amino acid,9672.1,41379.3,4.28,-3.6,-1.4937,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Caffeine,hydrotrope,9942.9,41265.8,4.15,-3.53,-1.4924,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Histidine,amino acid,9637.4,41231.0,4.28,-3.6,-1.492,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,9147.1,40898.3,4.47,-3.71,-1.488,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC E5,polymer,9942.9,40664.4,4.09,-3.49,-1.4852,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,PEG 4000,polymer,9942.9,40664.4,4.09,-3.49,-1.4852,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Poloxamer 188,polymer,9942.9,40664.4,4.09,-3.49,-1.4852,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,PVP K30,polymer,9942.9,40664.4,4.09,-3.49,-1.4852,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC K15M,polymer,9942.9,40664.4,4.09,-3.49,-1.4852,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,9147.1,40543.8,4.43,-3.69,-1.4837,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Glycine,amino acid,9672.1,40325.3,4.17,-3.54,-1.4811,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Urea,hydrotrope,9672.1,40306.9,4.17,-3.54,-1.4809,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Glutamine,amino acid,9942.9,40300.1,4.05,-3.47,-1.4808,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Arginine,amino acid,9942.9,40293.2,4.05,-3.47,-1.4807,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Glycine,amino acid,9637.4,40180.7,4.17,-3.54,-1.4793,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Urea,hydrotrope,9637.4,40162.4,4.17,-3.54,-1.4791,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Caffeine,hydrotrope,9672.1,40142.1,4.15,-3.53,-1.4789,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Caffeine,hydrotrope,9637.4,39998.2,4.15,-3.53,-1.4771,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,9147.1,39629.2,4.33,-3.63,-1.4726,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC K15M,polymer,9672.1,39557.1,4.09,-3.49,-1.4717,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Poloxamer 188,polymer,9672.1,39557.1,4.09,-3.49,-1.4717,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,PVP K30,polymer,9672.1,39557.1,4.09,-3.49,-1.4717,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC E5,polymer,9672.1,39557.1,4.09,-3.49,-1.4717,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,PEG 4000,polymer,9672.1,39557.1,4.09,-3.49,-1.4717,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,8663.8,39475.7,4.56,-3.76,-1.4707,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC K15M,polymer,9637.4,39415.2,4.09,-3.49,-1.4699,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,PVP K30,polymer,9637.4,39415.2,4.09,-3.49,-1.4699,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC E5,polymer,9637.4,39415.2,4.09,-3.49,-1.4699,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Poloxamer 188,polymer,9637.4,39415.2,4.09,-3.49,-1.4699,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,PEG 4000,polymer,9637.4,39415.2,4.09,-3.49,-1.4699,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Glutamine,amino acid,9672.1,39202.7,4.05,-3.47,-1.4673,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Arginine,amino acid,9672.1,39196.0,4.05,-3.47,-1.4672,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Histidine,amino acid,9147.1,39133.3,4.28,-3.6,-1.4664,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Triethanolamine,amine,9942.9,39079.8,3.93,-3.39,-1.4657,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Glutamine,amino acid,9637.4,39062.1,4.05,-3.47,-1.4655,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Arginine,amino acid,9637.4,39055.4,4.05,-3.47,-1.4654,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,8663.8,38737.4,4.47,-3.71,-1.4614,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Citric acid,organic acid,9942.9,38621.4,3.88,-3.36,-1.4599,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,8663.8,38401.7,4.43,-3.69,-1.4571,False
+CC1=CC=C(C(C)C)C=C1O,Carvacrol,methyl beta-cyclodextrin,3.5519,3564.0,-0.7136,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,8417.1,38351.3,4.56,-3.76,-1.4565,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Glycine,amino acid,9147.1,38136.5,4.17,-3.54,-1.4538,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Urea,hydrotrope,9147.1,38119.1,4.17,-3.54,-1.4535,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Triethanolamine,amine,9672.1,38015.6,3.93,-3.39,-1.4522,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Caffeine,hydrotrope,9147.1,37963.3,4.15,-3.53,-1.4515,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Tartaric acid,organic acid,9942.9,37927.4,3.81,-3.32,-1.4511,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Triethanolamine,amine,9637.4,37879.3,3.93,-3.39,-1.4504,False
+CC1=CC=C(C(C)C)C=C1O,Carvacrol,methyl beta-cyclodextrin,3.5519,3564.0,-0.7136,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,8417.1,37634.0,4.47,-3.71,-1.4473,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Citric acid,organic acid,9672.1,37569.8,3.88,-3.36,-1.4464,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,8663.8,37535.4,4.33,-3.63,-1.446,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Citric acid,organic acid,9637.4,37435.0,3.88,-3.36,-1.4447,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC K15M,polymer,9147.1,37410.0,4.09,-3.49,-1.4443,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,PEG 4000,polymer,9147.1,37410.0,4.09,-3.49,-1.4443,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,PVP K30,polymer,9147.1,37410.0,4.09,-3.49,-1.4443,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC E5,polymer,9147.1,37410.0,4.09,-3.49,-1.4443,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Poloxamer 188,polymer,9147.1,37410.0,4.09,-3.49,-1.4443,False
+CC1=CC=C(C(C)C)C=C1O,Carvacrol,methyl beta-cyclodextrin,3.5519,3564.0,-0.7136,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,8417.1,37307.8,4.43,-3.69,-1.443,False
+O=C(O)C1=CC=CC(N=NC2=CC=C([O-])C=C2)=C1,3-[(4-Hydroxyphenyl)azo]benzoate,alpha-cyclodextrin,3.7214,5265.0,-0.7952,Fuzzy-Strong,True,OK — Fuzzy Zone,Tromethamine,buffer amine,9942.9,37298.8,3.75,-3.28,-1.4429,False
+CC1=CC(O)=CC=C1N=NC1=CC=C(C(=O)O)C=C1,4-[(4-Hydroxy-2-methylphenyl)azo]benzoic acid,alpha-cyclodextrin,3.2014,1590.0,-0.6994,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,8176.3,37254.2,4.56,-3.76,-1.4423,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Glutamine,amino acid,9147.1,37074.8,4.05,-3.47,-1.4399,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Arginine,amino acid,9147.1,37068.5,4.05,-3.47,-1.4398,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Histidine,amino acid,8663.8,37065.7,4.28,-3.6,-1.4398,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Tartaric acid,organic acid,9672.1,36894.6,3.81,-3.32,-1.4375,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Tartaric acid,organic acid,9637.4,36762.3,3.81,-3.32,-1.4358,False
+CC1=CC(O)=CC=C1N=NC1=CC=C(C(=O)O)C=C1,4-[(4-Hydroxy-2-methylphenyl)azo]benzoic acid,alpha-cyclodextrin,3.2014,1590.0,-0.6994,Fuzzy-Strong,True,OK — Fuzzy Zone,Succinic acid,organic acid,8176.3,36557.4,4.47,-3.71,-1.433,False
+CC1=CC=C(C(C)C)C=C1O,Carvacrol,methyl beta-cyclodextrin,3.5519,3564.0,-0.7136,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,8417.1,36466.2,4.33,-3.63,-1.4318,False
+CN(C)C1=CC=C(N=NC2=CC=CC=C2C(=O)O)C=C1,2-((4-(Dimethylamino)phenyl)diazenyl)benzoic acid,alpha-cyclodextrin,2.5132,326.0,-0.7817,Fuzzy-Strong,True,OK — Fuzzy Zone,Tromethamine,buffer amine,9672.1,36283.1,3.75,-3.28,-1.4293,False
+CC1=CC(O)=CC=C1N=NC1=CC=C(C(=O)O)C=C1,4-[(4-Hydroxy-2-methylphenyl)azo]benzoic acid,alpha-cyclodextrin,3.2014,1590.0,-0.6994,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Proline,amino acid,8176.3,36240.6,4.43,-3.69,-1.4288,False
+OC1=CC(Cl)=CC=C1OC1=CC=C(Cl)C=C1Cl,Triclosan,Hexakis[6-O-(2-hydroxypropyl)]-alpha-cyclodextrin,3.5441,3500.0,-0.7799,Fuzzy-Strong,True,OK — Fuzzy Zone,Tromethamine,buffer amine,9637.4,36153.0,3.75,-3.28,-1.4276,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,Glycine,amino acid,8663.8,36121.5,4.17,-3.54,-1.4272,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,Urea,hydrotrope,8663.8,36105.1,4.17,-3.54,-1.4269,False
+CC1=CC=C(C(C)C)C=C1O,Carvacrol,methyl beta-cyclodextrin,3.5519,3564.0,-0.7136,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Histidine,amino acid,8417.1,36009.9,4.28,-3.6,-1.4256,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,Caffeine,hydrotrope,8663.8,35957.5,4.15,-3.53,-1.4249,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Triethanolamine,amine,9147.1,35952.2,3.93,-3.39,-1.4249,False
+C=CC(C)(O)CCC=C(C)C,Linalool,methyl beta-cyclodextrin,2.9206,833.0,-0.6785,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,7835.9,35703.4,4.56,-3.76,-1.4215,False
+CC(C)(C)CO,Neopentyl alcohol,beta-cyclodextrin,2.7168,521.0,-0.7543,Fuzzy-Strong,True,OK — Fuzzy Zone,Citric acid,organic acid,9147.1,35530.5,3.88,-3.36,-1.4191,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC E5,polymer,8663.8,35433.4,4.09,-3.49,-1.4177,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,PEG 4000,polymer,8663.8,35433.4,4.09,-3.49,-1.4177,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,HPMC K15M,polymer,8663.8,35433.4,4.09,-3.49,-1.4177,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,PVP K30,polymer,8663.8,35433.4,4.09,-3.49,-1.4177,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,Poloxamer 188,polymer,8663.8,35433.4,4.09,-3.49,-1.4177,False
+CC1=CC(O)=CC=C1N=NC1=CC=C(C(=O)O)C=C1,4-[(4-Hydroxy-2-methylphenyl)azo]benzoic acid,alpha-cyclodextrin,3.2014,1590.0,-0.6994,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Lysine,amino acid,8176.3,35423.0,4.33,-3.63,-1.4176,False
+CC(C(=O)O)C1=CC=C(C2=CC=CC=C2)C(F)=C1,Flurbiprofen,beta-cyclodextrin,3.6934,4936.0,-0.6731,Fuzzy-Strong,True,OK — Fuzzy Zone,Nicotinamide,hydrotrope,7749.5,35309.5,4.56,-3.76,-1.416,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Glutamine,amino acid,8663.8,35116.0,4.05,-3.47,-1.4133,False
+C=CC(=C)CCC=C(C)C,Myrcene,methyl beta-cyclodextrin,3.1092,1286.0,-0.7277,Fuzzy-Strong,True,OK — Fuzzy Zone,L-Arginine,amino acid,8663.8,35109.9,4.05,-3.47,-1.4132,False

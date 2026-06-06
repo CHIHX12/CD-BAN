@@ -1,0 +1,45 @@
+SOLVER:
+  BATCH_SIZE: 64
+  MAX_EPOCH: 100
+  LR: 5.0e-5
+  SEED: 42
+  NUM_WORKERS: 4
+
+GUEST:
+  NODE_IN_FEATS: 74          # CanonicalAtomFeaturizer (74) + padding bit (1) = 75
+  NODE_IN_EMBEDDING: 128
+  HIDDEN_LAYERS: [128, 128, 128]
+  PADDING: True
+  MAX_NODES: 290
+
+HOST:
+  NODE_IN_FEATS: 74
+  NODE_IN_EMBEDDING: 128
+  HIDDEN_LAYERS: [128, 128, 128]
+  PADDING: True
+  MAX_NODES: 290
+
+BCN:
+  HEADS: 2
+
+DECODER:
+  IN_DIM: 256
+  HIDDEN_DIM: 512
+  OUT_DIM: 128
+  BINARY: 1                  # binary output
+
+CLASSIFIER:
+  # K < 100    → label 1 (Weak)
+  # K > 10,000 → label 0 (Strong)
+  # pos_weight = n_label1 / n_label0 = 770 / 68 ≈ 11.32
+  POS_WEIGHT: 11.32
+
+DATASET:
+  DATA_PATH: ./data/binary
+  TRAIN: train.csv
+  VAL:   val.csv
+  TEST:  test.csv
+
+RESULT:
+  OUTPUT_DIR: ./results/binary
+  SAVE_MODEL: True

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "CD-BAN: Cyclodextrin Bilinear Attention Network"
+abstract: >
+  A graph neural network for binary classification of cyclodextrin inclusion
+  complex binding affinity (Strong vs. Weak) from SMILES strings alone.
+  The model encodes a continuous affinity gradient for out-of-distribution
+  intermediate-affinity compounds, enabling large-scale ternary coformer screening.
+authors:
+  - family-names: "Cheng"
+    given-names: "Chia-Yuan"
+    email: "cycheng29721@gmail.com"
+    orcid: ""
+repository-code: "https://github.com/CHIHX12/CD-BAN"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-06"
+keywords:
+  - cyclodextrin
+  - inclusion complex
+  - graph neural network
+  - bilinear attention
+  - drug formulation
+  - binding affinity
+  - machine learning
+  - computational pharmaceutics
+references:
+  - type: article
+    title: "Interpretable bilinear attention network with domain adaptation improves drug-target prediction"
+    authors:
+      - family-names: "Bai"
+        given-names: "Peizhen"
+    journal: "Nature Machine Intelligence"
+    volume: 5
+    pages: "126-136"
+    year: 2023
+    doi: "10.1038/s42256-022-00605-1"

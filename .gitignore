@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Private / session files
+.claude/
+paper/
+
+# Per-seed generated files (regenerate via run_seeds.sh)
+results/seed_*/result_metrics.pt
+results/seed_*/train_log.txt
+results/seed_*/val_log.txt
+results/seed_*/test_log.txt
+results/seed_*/model_arch.txt
+results/seed_*/model_epoch_*.pth
+
+# Training run logs (regenerate via run_seeds.sh)
+results/seed_stability/seed_*.log
+results/seed_stability/parallel_run.log
+
+# Intermediate output directory
+results/binary/

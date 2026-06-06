@@ -1,0 +1,8 @@
+guest,host,log10K,K_M-1,DeltaG_spread_kJmol,p_weak,prediction,reason,recommendation
+bencyclane,β-CD,4.903,80000,1.72,0.0,Strong (K>10k),"Two sources: K=80k & K=40k M⁻¹; same compound, small spread (1.72 kJ/mol)","ADD — merge as mean K=57,000 M⁻¹"
+bencyclane,β-CD,4.602,40000,1.72,0.0,Strong (K>10k),"Two sources: K=80k & K=40k M⁻¹; same compound, small spread (1.72 kJ/mol)","ADD — merge as mean K=57,000 M⁻¹"
+4-methylcinnamic acid,α-CD,4.134,13600,11.04,0.7408,Weak (K<100),Large spread (11.04 kJ/mol); K values range ~100-fold between sources,KEEP EXCLUDED — measurement unreliable
+doxepin,β-CD,4.121,13210,0.01,0.0088,Strong (K>10k),Two sources with nearly identical K (spread=0.01 kJ/mol),"ADD — virtually duplicate measurement, use mean"
+doxepin,β-CD,4.119,13162,0.01,0.0013,Strong (K>10k),Two sources with nearly identical K (spread=0.01 kJ/mol),"ADD — virtually duplicate measurement, use mean"
+4-bromocinnamic acid,α-CD,4.09,12300,7.57,0.7813,Weak (K<100),Spread=7.57 kJ/mol; conflicting K values across sources,KEEP EXCLUDED — uncertain measurement
+4-methoxycinnamic acid,α-CD,4.013,10299,8.96,0.7247,Weak (K<100),Spread=8.96 kJ/mol; large inter-source disagreement,KEEP EXCLUDED — uncertain measurement
