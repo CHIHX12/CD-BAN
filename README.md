@@ -115,28 +115,65 @@ Host SMILES  ──► MolecularGCN (3×GCNConv 128-128-128) ──►┘
 
 ---
 
+## Attention Analysis
+
+BANLayer attention aggregated over all label=0 (strong-binding) guests,
+collapsed to 11 glucopyranose chemical positions (C1, C2, C3, C4, C5,
+O5, C6, O6, O2, O3, O-bridge).
+
+```bash
+# Bar charts (600 dpi) + region-color PyMOL scripts
+python generate_all_cd_aggregate.py
+
+# Crystal structure PyMOL visualization (downloads PDB from RCSB automatically)
+python generate_crystal_pymol.py
+```
+
+Output:
+- `results/aggregate_attention/` - 600 dpi bar charts (PNG/SVG) + PML scripts for all 4 CD types
+- `results/crystal_pymol/` - crystal structure PDB + attention-colored PML + 1920x1080 renders
+
+Crystal structure sources:
+- alpha-CD: PDB 4FEM (chain B)
+- beta-CD:  PDB 1DMB (chain B)
+- gamma-CD: PDB 2ZYK (chain E)
+- HP-beta-CD: RDKit ETKDGv3 (no clean crystal available)
+
+PyMOL color: blue = low attention (C2, C3), red = high attention (O5, O2, O3, Ob)
+
+```bash
+cd results/crystal_pymol
+pymol beta_CD_crystal.pml    # auto-renders 1920x1080 PNG
+```
+
+---
+
 ## Repository Structure
 
 ```
 CD_BAN/
-├── main.py                    # Training entry point
-├── models.py                  # CDBAN, MolecularGCN, MLPDecoder
-├── trainer.py                 # Training loop
-├── dataloader.py              # Dataset and collate function
-├── ban.py                     # BANLayer
-├── utils.py                   # Utilities
-├── predict_model.py           # Step 1: DL inference → z_bin
-├── predict_calibration.py     # Step 2: binary K estimate
-├── predict_ternary_formula.py # Step 3: ternary K estimate
-├── predict_fuzzy.py           # Inference on fuzzy-zone compounds
-├── predict_duplicates.py      # Inference on excluded duplicates
-├── plot_figures.py            # Reproduce all publication figures
-├── plot_attention.py          # BANLayer attention heatmap
-├── generate_pymol_attention.py# PyMOL attention visualization
-├── ALGORITHM.md               # Mathematical formulation
-├── configs/CDBAN.yaml         # Hyperparameters
-├── data/binary/               # train / val / test / fuzzy CSV files
-└── results/                   # Model weights, figures, tables
+├── main.py                      # Training entry point
+├── models.py                    # CDBAN, MolecularGCN, MLPDecoder
+├── trainer.py                   # Training loop
+├── dataloader.py                # Dataset and collate function
+├── ban.py                       # BANLayer
+├── utils.py                     # Utilities
+├── predict_model.py             # Step 1: DL inference -> z_bin
+├── predict_calibration.py       # Step 2: binary K estimate
+├── predict_ternary_formula.py   # Step 3: ternary K estimate
+├── predict_fuzzy.py             # Inference on fuzzy-zone compounds
+├── predict_duplicates.py        # Inference on excluded duplicates
+├── plot_figures.py              # Reproduce all publication figures
+├── plot_attention.py            # BANLayer attention heatmap
+├── generate_all_cd_aggregate.py # Aggregate attention bar charts + PML scripts
+├── generate_crystal_pymol.py    # Crystal structure PyMOL visualization
+├── ALGORITHM.md                 # Mathematical formulation
+├── configs/CDBAN.yaml           # Hyperparameters
+├── data/binary/                 # train / val / test / fuzzy CSV files
+└── results/
+    ├── seed_49/                 # Model weights (best_model_epoch_69.pth)
+    ├── aggregate_attention/     # Bar charts (600 dpi) + PML + RDKit PDB
+    └── crystal_pymol/           # Crystal PDB + PML + 1920x1080 renders
 ```
 
 ---
