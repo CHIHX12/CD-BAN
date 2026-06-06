@@ -2,14 +2,11 @@
 # Naproxen inside gamma-CD
 # Colour = normalised BANLayer attention (blue=low, red=high)
 
-# ── 載入結構 ────────────────────────
 load /home/nibiohnproj9/cycheng/cd_gnn_training/CD_BAN/results/pymol/gamma_CD.pdb, cd_host
 load /home/nibiohnproj9/cycheng/cd_gnn_training/CD_BAN/results/pymol/naproxen.pdb, guest
 
-# ── 初始化 B-factor = 0 ─────────────
 alter cd_host, b=0.0
 
-# ── 注意力分數 → B-factor ────────────
 alter (cd_host and index 1), b=0.965443
 alter (cd_host and index 2), b=0.864816
 alter (cd_host and index 3), b=0.924352
@@ -99,30 +96,20 @@ alter (cd_host and index 86), b=0.987696
 alter (cd_host and index 87), b=0.891719
 alter (cd_host and index 88), b=0.995201
 
-# ── 上色 ────────────────────────────
-# CD 依注意力上色（藍=低注意力，紅=高注意力）
 spectrum b, blue_white_red, cd_host, minimum=0, maximum=1
 
-# ── 顯示風格 ─────────────────────────
 hide everything
 show surface, cd_host
 show sticks, cd_host
 set transparency, 0.35, cd_host
 
-# 配體（藥物）顯示
 show sticks, guest
 color yellow, guest
 set stick_radius, 0.15, guest
 
-# ── 相機設定 ─────────────────────────
 orient
 zoom cd_host, 5
 set bg_color, white
 
-# ── 顏色圖例說明 ─────────────────────
-# 藍色 = CD 原子注意力低（模型較不關注）
-# 紅色 = CD 原子注意力高（模型認為此區域影響結合）
-# 黃色 = Naproxen（藥物配體）
 
-# 存圖（可選）：
 # png results/pymol/gamma_CD_naproxen.png, width=1200, height=900, dpi=300
