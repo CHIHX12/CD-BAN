@@ -1,8 +1,22 @@
 # CD-BAN: Cyclodextrin Bilinear Attention Network
 
-Binary classification of drug–cyclodextrin inclusion complex affinity using GCN + BANLayer + MLP.
+**Paper:** Bilinear cross-attention networks implicitly supervise continuous thermodynamic gradients in supramolecular screening
 
-**Author:** Chih-Yang Cheng | **License:** MIT
+**Authors:**
+Chih-Yang Cheng¹\*, Yi-Huan Wu²\*, Feng-Yin Li¹\*
+
+¹ Department of Chemistry, National Chung Hsing University, Taichung 402, Taiwan  
+² Department of Chemistry, R.O.C. Military Academy, Kaohsiung, Taiwan  
+
+\*Corresponding authors: Chih-Yang Cheng (mushroom2368@gmail.com), Yi-Huan Wu (m1090008@rocma.edu.tw), Feng-Yin Li (feng64@nchu.edu.tw)
+
+**License:** MIT
+
+---
+
+## Abstract
+
+Predicting non-covalent host–guest binding affinities solely from 2D molecular graphs remains a fundamental challenge in representation learning. Here, we introduce CD-BAN, a dual-branch graph neural network that utilizes a bilinear cross-attention mechanism to explicitly model the structural complementarity of drug–cyclodextrin inclusion complexes, entirely bypassing the need for 3D geometries or handcrafted descriptors. Trained exclusively on a binary classification objective to distinguish thermodynamic extremes — strong (K > 10,000 M⁻¹) versus weak (K < 100 M⁻¹) binders — across 1,198 labeled pairs, CD-BAN achieves robust performance (AUROC = 0.925 ± 0.040). Strikingly, the model's latent space spontaneously organizes into a continuous affinity gradient for entirely out-of-distribution data. Evaluated on 1,850 withheld intermediate-affinity compounds (100 ≤ K ≤ 10,000 M⁻¹), the network's output logit yields a highly significant monotonic ranking (τ = −0.289, p < 10⁻⁷⁵), demonstrating that discrete binary supervision can implicitly capture continuous thermodynamic principles. Leveraging this emergent property through heuristic boundary calibration, we successfully prioritize 37,000 uncharacterized drug–excipient ternary combinations. Ultimately, this work highlights how attention-based networks can uncover continuous physical laws from discrete empirical limits, providing a highly scalable framework for supramolecular screening.
 
 ---
 
@@ -144,9 +158,9 @@ Source: OpenCycloDB (curated). Fuzzy-zone compounds are withheld from training a
 
 ```bibtex
 @article{cdban2026,
-  title  = {CD-BAN: Binary Classification of Cyclodextrin Inclusion Complex Affinity via Bilinear Attention Network},
-  author = {Cheng, Chih-Yang},
-  year   = {2026},
-  note   = {Preprint}
+  title   = {Bilinear cross-attention networks implicitly supervise continuous thermodynamic gradients in supramolecular screening},
+  author  = {Cheng, Chih-Yang and Wu, Yi-Huan and Li, Feng-Yin},
+  year    = {2026},
+  note    = {Preprint}
 }
 ```
