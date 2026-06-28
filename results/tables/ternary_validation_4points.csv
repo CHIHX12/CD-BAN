@@ -1,0 +1,5 @@
+Coformer,SMILES,logP,K_binary,K_ternary_true,K_ternary_pred,K_ratio_pred,error_pct
+L-arginine,N[C@@H](CCCNC(=N)N)C(=O)O,-1.34,180,720,729.0,4.05,1.3
+HPMC E5,polymer (no single SMILES),-1.26,280,980,1142.0,4.08,16.5
+PEG 4000,polymer (no single SMILES),-1.03,75,310,311.0,4.15,0.4
+HPMC K15M,polymer (no single SMILES),-1.26,120,580,489.0,4.08,-15.6

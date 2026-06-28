@@ -100,6 +100,37 @@ Formula: `Δz = −0.0378 × logP(coformer) − 0.7361`
 
 ---
 
+## Ternary Screening
+
+The ternary formula (Step 3 above) was used to screen drug–CD pairs against 15 small-molecule coformers and rank candidates by predicted enhancement. Two outputs are shown below.
+
+### Top 10 predicted candidates
+
+![Ternary top 10](results/figures/fig7a_ternary_top10_structures.png)
+
+Each row shows the drug structure, the cyclodextrin, the best-scoring coformer, and the binding constant before (drug + CD) and after adding the coformer. Only predictions whose `z_tern` stays inside the calibration range (`−0.799 ≤ z_tern ≤ +1.458`) are kept, so the valid ceiling is K ≈ 10,000 M⁻¹; raw extrapolations beyond this range are excluded because they are unreliable.
+
+Data: [`results/tables/ternary_top10_predicted.csv`](results/tables/ternary_top10_predicted.csv) (full SMILES in the `SMILES_Guest` column).
+
+### Validation on literature data
+
+![Ternary validation](results/figures/fig7b_ternary_validation.png)
+
+The formula was fitted on **n = 4** literature ternary points, all from the **indomethacin / β-CD** system (Fernandes & Veiga, 1999). Predicted vs. true K_ternary:
+
+| Coformer | Type | logP | K_ternary (true) | K_ternary (pred) | Error |
+|----------|------|-----:|-----------------:|-----------------:|------:|
+| L-arginine | small molecule | −1.34 | 720 | 729 | +1.3% |
+| PEG 4000 | polymer | −1.03 | 310 | 311 | +0.4% |
+| HPMC E5 | polymer | −1.26 | 980 | 1,142 | +16.5% |
+| HPMC K15M | polymer | −1.26 | 580 | 489 | −15.6% |
+
+Data: [`results/tables/ternary_validation_4points.csv`](results/tables/ternary_validation_4points.csv).
+
+> **Note:** Only L-arginine is a small molecule with a defined SMILES; HPMC (E5 and K15M are the same polymer at different viscosity grades) and PEG are polymers, drawn as representative repeat units. With n = 4 and 3 of 4 points being polymers, the formula captures the *direction* of enhancement (×3–5) but absolute K values are order-of-magnitude estimates only.
+
+---
+
 ## Architecture
 
 ```
