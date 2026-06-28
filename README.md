@@ -104,30 +104,36 @@ Formula: `Δz = −0.0378 × logP(coformer) − 0.7361`
 
 The ternary formula (Step 3 above) was used to screen drug–CD pairs against 15 small-molecule coformers and rank candidates by predicted enhancement. Two outputs are shown below.
 
-### Top 10 predicted candidates
+> **⚠️ Status of the ternary formula.** The descriptor-based `Δz` formula (Step 3) is **exploratory only**. As shown below against real literature data, coformer enhancement of CD binding is strongly system-dependent and cannot be predicted from `logP` alone. The candidate ranking is illustrative, not a validated quantitative prediction.
+
+### Predicted candidates (illustrative)
 
 ![Ternary top 10](results/figures/fig7a_ternary_top10_structures.png)
 
-Each row shows the drug structure, the cyclodextrin, the best-scoring coformer, and the binding constant before (drug + CD) and after adding the coformer. Only predictions whose `z_tern` stays inside the calibration range (`−0.799 ≤ z_tern ≤ +1.458`) are kept, so the valid ceiling is K ≈ 10,000 M⁻¹; raw extrapolations beyond this range are excluded because they are unreliable.
+Each row shows the drug structure, the cyclodextrin, a candidate coformer, and the binding constant before (drug + CD) and after adding the coformer, as produced by the `Δz` formula. Only predictions whose `z_tern` stays inside the calibration range (`−0.799 ≤ z_tern ≤ +1.458`) are kept. **These predicted K values should be treated as a hypothesis generator, not measured affinities** (see validation below).
 
 Data: [`results/tables/ternary_top10_predicted.csv`](results/tables/ternary_top10_predicted.csv) (full SMILES in the `SMILES_Guest` column).
 
-### Validation on literature data
+### Real literature ternary data
 
-![Ternary validation](results/figures/fig7b_ternary_validation.png)
+![Ternary literature data](results/figures/fig7b_ternary_validation.png)
 
-The formula was fitted on **n = 4** literature ternary points, all from the **indomethacin / β-CD** system (Fernandes & Veiga, 1999). Predicted vs. true K_ternary:
+To ground the ternary problem in measured data, we compiled **16 drug–CD–coformer systems** from the literature with reported binary and ternary stability constants (13 with absolute K values; all with DOIs):
 
-| Coformer | Type | logP | K_ternary (true) | K_ternary (pred) | Error |
-|----------|------|-----:|-----------------:|-----------------:|------:|
-| L-arginine | small molecule | −1.34 | 720 | 729 | +1.3% |
-| PEG 4000 | polymer | −1.03 | 310 | 311 | +0.4% |
-| HPMC E5 | polymer | −1.26 | 980 | 1,142 | +16.5% |
-| HPMC K15M | polymer | −1.26 | 580 | 489 | −15.6% |
+| Drug / CD | Coformer | K_binary | K_ternary | Ratio | Ref (DOI) |
+|-----------|----------|---------:|----------:|------:|-----------|
+| Repaglinide / HPβCD | L-arginine | 333 | 4,407 | **×13.2** | 10.1007/s10847-015-0559-y |
+| Arbidol / β-CD | Poloxamer 188 | 550 | 2,134 | ×3.9 | 10.3390/ph14050411 |
+| Glyburide / HPβCD | L-arginine | 100 | 360 | ×3.6 | 10.3390/pharmaceutics13071099 |
+| Chrysin / HPβCD | Poloxamer | 268 | 720 | ×2.7 | 10.3390/ph15121525 |
+| Norfloxacin / β-CD | HPMC (5%) | 103 | 307 | ×3.0 | 10.3390/pharmaceutics13071099 |
+| Irbesartan / HPβCD | PEG 4000 | 383 | 502 | ×1.3 | 10.1016/j.jddst.2021.102964 |
+| Nateglinide / HPβCD | L-arginine | 382 | 464 | ×1.2 | 10.3390/pharmaceutics13071099 |
+| Irbesartan / HPβCD | PVP K30 | 383 | 428 | ×1.1 | 10.1016/j.jddst.2021.102964 |
 
-Data: [`results/tables/ternary_validation_4points.csv`](results/tables/ternary_validation_4points.csv).
+Full table (16 systems): [`results/tables/ternary_literature_real.csv`](results/tables/ternary_literature_real.csv).
 
-> **Note:** Only L-arginine is a small molecule with a defined SMILES; HPMC (E5 and K15M are the same polymer at different viscosity grades) and PEG are polymers, drawn as representative repeat units. With n = 4 and 3 of 4 points being polymers, the formula captures the *direction* of enhancement (×3–5) but absolute K values are order-of-magnitude estimates only.
+**Key finding — the coformer effect is system-dependent.** The same coformer (L-arginine) ranges from *reducing* K (etoricoxib, DOI 10.1080/03639040802220292) to ×1.2 (nateglinide), ×3.6 (glyburide, naproxen), ×13 (repaglinide), and ×30 (meloxicam, DOI 10.2478/v10007-008-0029-9). This enhancement does **not** correlate with `logP`, which is why a single descriptor formula is insufficient and a data-driven ternary model is left as future work.
 
 ---
 

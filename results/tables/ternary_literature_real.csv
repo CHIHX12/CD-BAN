@@ -1,0 +1,17 @@
+Drug,CD,Coformer,Coformer_type,K_binary,K_ternary,K_ratio,Conditions,Reference,DOI,Provenance
+Repaglinide,HPβCD,L-arginine,amino acid,333.0,4407.0,13.23,phase solubility,"Patel & Patel, J Incl Phenom Macrocycl Chem 2015",10.1007/s10847-015-0559-y,primary
+Meloxicam,HPβCD,L-arginine,amino acid,,,,×30.3 vs binary (no absolute K),"El-Maradny et al., Acta Pharm 2008, 58:455",10.2478/v10007-008-0029-9,relative-only
+Glyburide,HPβCD,L-arginine,amino acid,100.0,360.0,3.6,pH 7.5,Singh et al. (via Pharmaceutics 2021 review),10.3390/pharmaceutics13071099,review-table
+Naproxen,HPβCD,L-arginine,amino acid,,,,×3.6 vs binary (no absolute K),"Mura et al., Int J Pharm 2003, 260:293",10.1016/S0378-5173(03)00265-5,relative-only
+Nateglinide,HPβCD,L-arginine,amino acid,382.0,464.0,1.21,phase solubility,via Pharmaceutics 2021 review ref 22,10.3390/pharmaceutics13071099,review-table
+Etoricoxib,HPβCD,L-arginine,amino acid,371.8,,,arginine DECREASED Kc,"Patel & Patel, Drug Dev Ind Pharm 2009, 35:1",10.1080/03639040802220292,primary(decrease)
+Arbidol HCl,β-CD,Poloxamer 188,polymer,550.0,2134.0,3.88,37°C,"Anwer et al., Pharmaceuticals 2021, 14:411",10.3390/ph14050411,primary
+Chrysin,HPβCD,Poloxamer,polymer,268.0,720.0,2.69,"25°C, 10% w/w","Imam et al., Pharmaceuticals 2022, 15:1525",10.3390/ph15121525,primary
+Norfloxacin,β-CD,HPMC 5%,polymer,103.49,307.49,2.97,phase solubility,via Pharmaceutics 2021 review ref 93,10.3390/pharmaceutics13071099,review-table
+Norfloxacin,β-CD,HPMC 2.5%,polymer,103.49,253.34,2.45,phase solubility,via Pharmaceutics 2021 review ref 93,10.3390/pharmaceutics13071099,review-table
+Diosmin,β-CD,PEG 6000,polymer,151.0,236.0,1.56,phase solubility,via Pharmaceutics 2021 review ref 92,10.3390/pharmaceutics13071099,review-table
+Irbesartan,HPβCD,PEG 4000,polymer,382.7,502.21,1.31,phase solubility,"Suvarna et al., J Drug Deliv Sci Technol 2022, 67:102964",10.1016/j.jddst.2021.102964,primary(abstract)
+Irbesartan,HPβCD,Poloxamer 188,polymer,382.7,488.28,1.28,phase solubility,"Suvarna et al., J Drug Deliv Sci Technol 2022, 67:102964",10.1016/j.jddst.2021.102964,primary(abstract)
+Diosmin,β-CD,HPMC,polymer,151.0,186.0,1.23,phase solubility,via Pharmaceutics 2021 review ref 92,10.3390/pharmaceutics13071099,review-table
+Irbesartan,HPβCD,HPMC,polymer,382.7,447.09,1.17,phase solubility,"Suvarna et al., J Drug Deliv Sci Technol 2022, 67:102964",10.1016/j.jddst.2021.102964,primary(abstract)
+Irbesartan,HPβCD,PVP K30,polymer,382.7,427.84,1.12,phase solubility,"Suvarna et al., J Drug Deliv Sci Technol 2022, 67:102964",10.1016/j.jddst.2021.102964,primary(abstract)
