@@ -73,6 +73,6 @@ ax.text(75, 6, 'Dual-branch graph encoder (no 3D coordinates) → explicit guest
         ha='center', va='center', fontsize=9.5, style='italic', color='#333333')
 
 fig.tight_layout()
-fig.savefig(os.path.join(OUT, 'Fig_1_architecture_encoding.png'), dpi=600)
-fig.savefig(os.path.join(OUT, 'Fig_1_architecture_encoding.svg'))
-print('Saved Fig_1_architecture_encoding.png/.svg (600 dpi)')
+fig.savefig(os.path.join(OUT, 'Fig_6-1_architecture_encoding.png'), dpi=600)
+fig.savefig(os.path.join(OUT, 'Fig_6-1_architecture_encoding.svg'))
+print('Saved Fig_6-1_architecture_encoding.png/.svg (600 dpi)')
