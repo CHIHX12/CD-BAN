@@ -1,6 +1,6 @@
 {
   "title": "CD-BAN: Cyclodextrin Bilinear Attention Network for Inclusion Complex Affinity Classification",
-  "description": "A dual-branch graph neural network (CD-BAN) with a bilinear cross-attention layer that classifies drug-cyclodextrin inclusion-complex binding affinity (Strong: K > 10,000 M⁻¹ vs. Weak: K < 100 M⁻¹) from 2D SMILES alone, without 3D geometry or handcrafted descriptors. Trained only on the binary extremes, it orders 1,850 withheld intermediate-affinity compounds along a continuous gradient (Kendall τ = -0.289, p < 1e-75); a multi-task regression head converts this into a formula-free affinity estimate. This release adds the major-revision analyses: a no-attention ablation, classical (Morgan-fingerprint + host-feature) baselines, PCA/UMAP embedding visualisation, atom-masking causal validation, host-derivative cold-start, calibration, and external-guest similarity. Includes pre-trained weights (10 seeds), all result tables/figures, and the pinned environment (requirements.txt).",
+  "description": "Source code for CD-BAN, a dual-branch graph neural network with a bilinear cross-attention layer that classifies drug-cyclodextrin inclusion-complex binding affinity (Strong: K > 10,000 M⁻¹ vs. Weak: K < 100 M⁻¹) from 2D SMILES alone, without 3D geometry or handcrafted descriptors. Trained only on the binary extremes, it orders 1,850 withheld intermediate-affinity compounds along a continuous gradient (Kendall τ = -0.289, p < 1e-75); a multi-task regression head converts this into a formula-free affinity estimate. This release contains the complete code, the hyperparameter configuration (configs/CDBAN.yaml), the pinned environment (requirements.txt), and all analysis scripts (no-attention ablation, classical baselines, PCA/UMAP embedding, atom-masking causal validation, host-derivative cold-start, calibration, external-guest similarity). The training data are derived from the OpenCycloDB (Tahil et al. 2023, doi:10.5281/zenodo.7575539) and are referenced, not redistributed, in this code release.",
   "creators": [
     {
       "name": "Cheng, Chih-Yang",
@@ -41,5 +41,5 @@
       "relation": "isSupplementTo"
     }
   ],
-  "notes": "Base data from OpenCycloDB (Tahil et al. 2023, doi:10.5281/zenodo.7575539). Pre-trained weights for seeds 42-51 included. Environment pinned in requirements.txt (Python 3.10, PyTorch 2.5.1+cu121, PyTorch Geometric 2.7.0, RDKit 2023.09.6). All results reproducible with the provided scripts."
+  "notes": "Code-only release. Base data from OpenCycloDB (Tahil et al. 2023, doi:10.5281/zenodo.7575539) is referenced, not redistributed. Environment pinned in requirements.txt (Python 3.10, PyTorch 2.5.1+cu121, PyTorch Geometric 2.7.0, RDKit 2023.09.6). All reported results are reproducible from the provided scripts."
 }
