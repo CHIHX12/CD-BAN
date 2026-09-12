@@ -1,0 +1,19 @@
+Extremes by family: {'alpha': 499, 'beta': 489, 'gamma': 162, 'HP-beta': 48}
+Fuzzy by family:    {'beta': 1147, 'alpha': 417, 'gamma': 159, 'HP-beta': 127}
+
+  hold-out alpha   : AUROC=0.636±0.093  fuzzy Pearson=0.159±0.026  (ext n=499, strong=7)
+  hold-out beta    : AUROC=0.892±0.039  fuzzy Pearson=0.423±0.046  (ext n=489, strong=66)
+  hold-out gamma   : AUROC=0.885±0.028  fuzzy Pearson=0.512±0.039  (ext n=162, strong=19)
+  hold-out HP-beta : AUROC=0.926±0.109  fuzzy Pearson=0.345±0.081  (ext n=48, strong=5)
+
+=== COLD-START SUMMARY (leave-one-CD-family-out, 10 seeds 42-51) ===
+held_out_CD  AUROC  AUROC_sd  Pearson  Pearson_sd  n_ext  n_strong
+      alpha  0.636     0.093    0.159       0.026    499         7
+       beta  0.892     0.039    0.423       0.046    489        66
+      gamma  0.885     0.028    0.512       0.039    162        19
+    HP-beta  0.926     0.109    0.345       0.081     48         5
+
+  mean cold-start AUROC = 0.835 (warm baseline ~0.95)
+  mean cold-start Pearson = 0.360 (warm baseline ~0.65)
+
+Saved: coldstart_cd.png/.svg , coldstart_cd.csv , run_log.txt

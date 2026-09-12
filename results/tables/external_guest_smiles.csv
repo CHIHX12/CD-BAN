@@ -1,0 +1,9 @@
+Drug,CID,CanonicalSMILES
+repaglinide,65981,"CCOc1cc(CC(=O)NC(CC(C)C)c2ccccc2N2CCCCC2)ccc1C(=O)O"
+arbidol,9958103,"CCOC(=O)c1c(CSc2ccccc2)n(C)c2cc(Br)c(O)c(CN(C)C)c12.Cl"
+irbesartan,3749,"CCCCC1=NC2(CCCC2)C(=O)N1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1"
+nateglinide,5311309,"CC(C)C1CCC(C(=O)NC(Cc2ccccc2)C(=O)O)CC1"
+glyburide,3488,"COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1"
+chrysin,5281607,"O=c1cc(-c2ccccc2)oc2cc(O)cc(O)c12"
+diosmin,5281613,"COc1ccc(-c2cc(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1O"
+norfloxacin,4539,"CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)cc21"

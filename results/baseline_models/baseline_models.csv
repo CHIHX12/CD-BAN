@@ -1,0 +1,4 @@
+model,test_AUROC,fuzzy_Pearson,fuzzy_Kendall
+LogisticRegression,0.902,-0.239,-0.166
+RandomForest,0.923,-0.316,-0.236
+MLP,0.87,-0.24,-0.148

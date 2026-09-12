@@ -1,0 +1,20 @@
+Train 2133 | fuzzy calib 277 | fuzzy test 278 | cls test 120
+
+  seed 42: AUROC=0.957  fuzzy Pearson=0.639  R²(raw)=0.200  R²(recal)=0.405
+  seed 43: AUROC=0.975  fuzzy Pearson=0.639  R²(raw)=0.161  R²(recal)=0.398
+  seed 44: AUROC=0.977  fuzzy Pearson=0.606  R²(raw)=0.124  R²(recal)=0.366
+  seed 45: AUROC=0.436  fuzzy Pearson=0.426  R²(raw)=-1.774  R²(recal)=0.179
+  seed 46: AUROC=0.980  fuzzy Pearson=0.646  R²(raw)=0.157  R²(recal)=0.407
+  seed 47: AUROC=0.943  fuzzy Pearson=0.700  R²(raw)=0.173  R²(recal)=0.481
+  seed 48: AUROC=0.978  fuzzy Pearson=0.633  R²(raw)=0.194  R²(recal)=0.388
+  seed 49: AUROC=0.877  fuzzy Pearson=0.615  R²(raw)=-0.644  R²(recal)=0.368
+  seed 50: AUROC=0.942  fuzzy Pearson=0.645  R²(raw)=0.181  R²(recal)=0.407
+  seed 51: AUROC=0.891  fuzzy Pearson=0.594  R²(raw)=-0.270  R²(recal)=0.339
+
+=== SUMMARY (seeds 42-51) ===
+  AUROC      0.896 ± 0.166
+  Pearson    0.614 ± 0.072
+  R2_raw     -0.150 ± 0.634
+  R2_recal   0.374 ± 0.078
+
+Saved: multitask_seeds.png/.svg , multitask_seeds.csv , run_log_seeds.txt

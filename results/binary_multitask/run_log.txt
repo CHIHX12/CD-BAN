@@ -1,0 +1,15 @@
+Train: 2318 (extremes 838 + fuzzy 1480)
+Test : extremes 120 (classification) + fuzzy 370 (regression)
+
+Training multi-task (seed 42, 80 epochs, device=cuda)...
+  epoch  20  loss=0.8072
+  epoch  40  loss=0.3872
+  epoch  60  loss=0.2541
+  epoch  80  loss=0.1445
+
+=== RESULTS (seed 42) ===
+  CLASSIFICATION (test extremes, n=120):  AUROC = 0.947
+  REGRESSION (held-out fuzzy, n=370):   R² = 0.159  RMSE = 0.471  Pearson = 0.622
+     (old classifier+formula on fuzzy was: Pearson r ~ -0.42, R² ~ 0.18)
+
+Saved: multitask_results.png/.svg , multitask_seed42.pth , run_log.txt

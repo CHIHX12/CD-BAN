@@ -1,0 +1,29 @@
+Pairs: 1198  | strong(0)=97  weak(1)=1101
+Attention profiles: (1198, 10)  (10 interpretable categories)
+
+Most discriminative attention categories (|strong - weak|):
+  Aliphatic C      weak=0.360  strong=0.553  delta=+0.193
+  Aromatic C       weak=0.395  strong=0.286  delta=-0.110
+  Non-ring atom    weak=0.511  strong=0.410  delta=-0.101
+  Ring atom        weak=0.489  strong=0.590  delta=+0.101
+  H-bond acceptor  weak=0.218  strong=0.138  delta=-0.080
+  H-bond donor     weak=0.108  strong=0.055  delta=-0.053
+  O                weak=0.155  strong=0.110  delta=-0.045
+  N                weak=0.063  strong=0.028  delta=-0.035
+  Halogen          weak=0.020  strong=0.015  delta=-0.005
+  S                weak=0.006  strong=0.008  delta=+0.002
+
+Attention-only logistic formula (5-fold CV):  AUROC = 0.776   balanced-acc = 0.716
+Formula weights (log-odds of WEAK per unit attention-fraction):
+  H-bond donor     w = +3.14
+  H-bond acceptor  w = +2.20
+  Aliphatic C      w = -1.90
+  N                w = +1.83
+  Ring atom        w = -1.21
+  Non-ring atom    w = +1.14
+  S                w = -0.98
+  Aromatic C       w = +0.87
+  O                w = +0.37
+  Halogen          w = -0.36
+
+Saved: attention_delta.png/.svg , attention_delta.csv , run_log.txt

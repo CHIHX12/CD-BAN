@@ -1,0 +1,13 @@
+Train extremes: 838 | fuzzy (test, all unseen): 1850
+
+Fuzzy-zone ranking (model output z vs true log10K, n=1850):
+  1. RANDOM (untrained)        Pearson=-0.162  Spearman=-0.140  Kendall_tau=-0.092
+  2. SHUFFLED labels           Pearson=+0.044  Spearman=+0.046  Kendall_tau=+0.031
+  3. REAL labels (emergence)   Pearson=-0.396  Spearman=-0.382  Kendall_tau=-0.260
+  4. Supervised reg (with fuzzy)  Pearson=+0.650  (ceiling, from multitask)
+
+=== VERDICT ===
+  REAL |tau|=0.260  vs  null(random/shuffled) |tau|<=0.092
+  -> emergence NOT clearly above null
+
+Saved: emergence_test.png/.svg , emergence_test.csv , run_log.txt

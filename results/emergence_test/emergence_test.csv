@@ -1,0 +1,5 @@
+condition,pearson,spearman,kendall
+1. RANDOM (untrained),-0.162,-0.14,-0.092
+2. SHUFFLED labels,0.044,0.046,0.031
+3. REAL labels (emergence),-0.396,-0.382,-0.26
+4. Supervised reg (with fuzzy),0.65,,

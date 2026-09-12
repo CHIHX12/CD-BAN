@@ -37,3 +37,11 @@ results/crystal_pymol/4FEM.pdb
 results/aggregate_attention/1DMB.pdb
 results/aggregate_attention/2ZYK.pdb
 results/aggregate_attention/4FEM.pdb
+
+# Confidential / pre-publication drafts (NOT part of the code+data release)
+response_letter.md
+文章.txt
+文章new.txt
+
+# Agent/session state (not part of release)
+.omo/

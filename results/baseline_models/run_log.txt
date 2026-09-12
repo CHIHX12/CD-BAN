@@ -1,0 +1,21 @@
+Building feature matrices...
+train (838, 1037)  test (120, 1037)  fuzzy (1850, 1037)  (dims=1037)
+
+=== LogisticRegression ===
+  test AUROC = 0.902   fuzzy Pearson = -0.239   fuzzy Kendall = -0.166
+
+=== RandomForest ===
+  test AUROC = 0.923   fuzzy Pearson = -0.316   fuzzy Kendall = -0.236
+
+=== MLP ===
+  test AUROC = 0.870   fuzzy Pearson = -0.240   fuzzy Kendall = -0.148
+
+=== BASELINE SUMMARY (trained on 838 extremes, same protocol as CD-BAN) ===
+             model  test_AUROC  fuzzy_Pearson  fuzzy_Kendall
+LogisticRegression       0.902         -0.239         -0.166
+      RandomForest       0.923         -0.316         -0.236
+               MLP       0.870         -0.240         -0.148
+
+Reference (CD-BAN, 10 seeds): test AUROC 0.925 +/- 0.040 ; fuzzy Pearson -0.468 / Kendall -0.289
+
+Saved: baseline_models.csv, baseline_models.png/.svg, run_log.txt

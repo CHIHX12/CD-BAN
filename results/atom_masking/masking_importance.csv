@@ -1,0 +1,11 @@
+category,strong_mean_abs_dz,weak_mean_abs_dz,n_strong_atoms,n_weak_atoms
+Aromatic C,0.9227,0.1358,215,256
+Aliphatic C,2.7967,0.0713,438,166
+N,0.6708,0.094,24,38
+O,1.3557,0.0847,102,66
+S,0.227,0.1283,10,4
+Halogen,0.2666,0.0846,12,10
+H-bond donor,1.4263,0.1002,46,44
+H-bond acceptor,1.1561,0.0862,136,110
+Ring atom,2.1102,0.1309,481,298
+Non-ring atom,1.7756,0.0748,320,242

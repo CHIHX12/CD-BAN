@@ -1,0 +1,34 @@
+# CD-BAN — pinned environment (Python 3.10, CUDA 12.1)
+# Verified against the training environment used to produce all reported results.
+#
+# Install (CPU-free GPU build):
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+#
+# RDKit is intentionally pinned: the 74-dim atom featuriser (dataloader.py) and all
+# fingerprint / canonical-SMILES operations are version-sensitive, so an unpinned
+# RDKit can silently change features and break reproducibility.
+
+# --- core deep learning ---
+torch==2.5.1
+torch-geometric==2.7.0
+
+# --- cheminformatics (PINNED — critical for reproducibility) ---
+rdkit==2023.09.6
+
+# --- numerics / data ---
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.15.2
+scikit-learn==1.7.1
+
+# --- plotting / misc ---
+matplotlib==3.10.5
+PyYAML==6.0.2
+prettytable==3.17.0
+tqdm==4.67.1
+
+# --- added for the major-revision analyses (representation + baseline featurisers) ---
+umap-learn==0.5.9.post2
+mordred==1.2.0
+networkx==2.8.8

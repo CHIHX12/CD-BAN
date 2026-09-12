@@ -1,0 +1,6 @@
+Loaded /home/nibiohnproj9/cycheng/cd_gnn_training/CD_BAN/results/seed_49/best_model_epoch_69.pth
+fuzzy fused embeddings: (1850, 256) (n=1850)
+PCA explained variance (2 comp): 0.516
+UMAP done
+P(Weak) vs log10K: Pearson=-0.468  Kendall=-0.289
+Saved: embedding_viz.png/.svg, fuzzy_embeddings.npy, run_log.txt

@@ -1,0 +1,18 @@
+modified-beta extremes: 118 (strong=13)  | modified-beta fuzzy: 242
+training (native+HP-beta) extremes: 1080  fuzzy: 1608
+  seed 42: modified-beta AUROC=0.958  fuzzy Pearson=+0.469
+  seed 43: modified-beta AUROC=0.953  fuzzy Pearson=+0.485
+  seed 44: modified-beta AUROC=0.918  fuzzy Pearson=+0.405
+  seed 45: modified-beta AUROC=0.807  fuzzy Pearson=+0.507
+  seed 46: modified-beta AUROC=0.902  fuzzy Pearson=+0.521
+  seed 47: modified-beta AUROC=0.943  fuzzy Pearson=+0.466
+  seed 48: modified-beta AUROC=0.979  fuzzy Pearson=+0.496
+  seed 49: modified-beta AUROC=0.980  fuzzy Pearson=+0.504
+  seed 50: modified-beta AUROC=0.918  fuzzy Pearson=+0.527
+  seed 51: modified-beta AUROC=0.968  fuzzy Pearson=+0.489
+
+=== HOST-DERIVATIVE COLD START (all modified-beta held out, 10 seeds) ===
+  AUROC   = 0.933 +/- 0.052
+  Pearson = +0.487 +/- 0.035
+  (warm baselines: AUROC ~0.95, Pearson ~0.65; 4-family cold-start mean AUROC 0.835)
+Saved: host_derivative_coldstart.csv, run_log.txt

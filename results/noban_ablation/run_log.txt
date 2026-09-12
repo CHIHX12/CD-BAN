@@ -1,0 +1,16 @@
+seed 42: BAN  AUROC=0.966 fuzzyP=-0.371 | noBAN AUROC=0.975 fuzzyP=-0.392
+seed 43: BAN  AUROC=0.959 fuzzyP=-0.361 | noBAN AUROC=0.982 fuzzyP=-0.402
+seed 44: BAN  AUROC=0.954 fuzzyP=-0.364 | noBAN AUROC=0.982 fuzzyP=-0.393
+seed 45: BAN  AUROC=0.850 fuzzyP=-0.329 | noBAN AUROC=0.971 fuzzyP=-0.369
+seed 46: BAN  AUROC=0.976 fuzzyP=-0.364 | noBAN AUROC=0.946 fuzzyP=-0.413
+seed 47: BAN  AUROC=0.861 fuzzyP=-0.352 | noBAN AUROC=0.979 fuzzyP=-0.398
+seed 48: BAN  AUROC=0.971 fuzzyP=-0.389 | noBAN AUROC=0.971 fuzzyP=-0.391
+seed 49: BAN  AUROC=0.974 fuzzyP=-0.353 | noBAN AUROC=0.979 fuzzyP=-0.386
+seed 50: BAN  AUROC=0.961 fuzzyP=-0.378 | noBAN AUROC=0.956 fuzzyP=-0.382
+seed 51: BAN  AUROC=0.856 fuzzyP=-0.322 | noBAN AUROC=0.964 fuzzyP=-0.383
+
+=== SUMMARY (10 seeds) ===
+CD-BAN     test AUROC = 0.933 +/- 0.054   fuzzy Pearson = -0.358   fuzzy Kendall = -0.196
+no-BAN     test AUROC = 0.971 +/- 0.012   fuzzy Pearson = -0.391   fuzzy Kendall = -0.217
+
+Saved: noban_ablation.csv, noban_ablation.png/.svg, run_log.txt

@@ -1,0 +1,15 @@
+unique training guests: 781
+
+External guest similarity to training guests (Morgan Tanimoto):
+       Drug     CID  Tanimoto_r2_max  Tanimoto_r2_mean  Tanimoto_r2_frac_gt_0.5  Tanimoto_r3_max  Tanimoto_r3_mean  Tanimoto_r3_frac_gt_0.5
+repaglinide   65981            0.246            0.1158                   0.0000            0.185            0.0867                   0.0000
+    arbidol 9958103            0.203            0.0996                   0.0000            0.170            0.0810                   0.0000
+ irbesartan    3749            0.232            0.0857                   0.0000            0.158            0.0649                   0.0000
+nateglinide 5311309            0.548            0.1542                   0.0038            0.509            0.1253                   0.0026
+  glyburide    3488            0.385            0.0950                   0.0000            0.279            0.0727                   0.0000
+    chrysin 5281607            0.435            0.1098                   0.0000            0.324            0.0893                   0.0000
+    diosmin 5281613            0.292            0.0783                   0.0000            0.220            0.0569                   0.0000
+norfloxacin    4539            0.226            0.0911                   0.0000            0.169            0.0753                   0.0000
+
+Mean max-Tanimoto (r2) across 8 guests = 0.321
+Saved: external_similarity.csv, run_log.txt
